@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-8.4.2, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content
+plugins: platformdirs-4.14.3, typeguard-4.6.0, anyio-4.16.0, langsmith-0.14.17
+collecting ... collected 5 items
+
+tests/test_analysis.py::test_valid_dataset_loading PASSED                [ 20%]
+tests/test_analysis.py::test_missing_values_handling PASSED              [ 40%]
+tests/test_analysis.py::test_duplicate_removal PASSED                    [ 60%]
+tests/test_analysis.py::test_invalid_file PASSED                         [ 80%]
+tests/test_analysis.py::test_statistical_analysis PASSED                 [100%]
+
+============================== 5 passed in 0.82s ===============================
